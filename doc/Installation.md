@@ -22,9 +22,11 @@ There is Docker [image](https://hub.docker.com/r/maltokyo/docker-google-drive-oc
 
 ## Archlinux
 
-`google-drive-ocamlfuse` is available in the [AUR](https://aur.archlinux.org/packages/google-drive-ocamlfuse/) (thanks to [mlq](http://pwmt.org/) for uploading the package). To install it, run:
+`google-drive-ocamlfuse` is available in the [AUR](https://aur.archlinux.org/packages/google-drive-ocamlfuse/) (thanks to [mlq](http://pwmt.org/) for uploading the package). To install it, run some [pacman wrapper](https://wiki.archlinux.org/index.php/AUR_helpers#Pacman_wrappers) like [pikaur](https://github.com/actionless/pikaur), [trizen](https://github.com/trizen/trizen) or [yay](https://github.com/Jguer/yay):
 
-    yaourt -S google-drive-ocamlfuse
+    pikaur -S google-drive-ocamlfuse  # or
+    trizen -S google-drive-ocamlfuse  # or
+    yay -S google-drive-ocamlfuse
 
 ## Debian Stretch
 
